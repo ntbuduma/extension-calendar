@@ -28,7 +28,7 @@
       "matches": [
         "<all_urls>"
       ],
-      "js": ["js/content-script.js"]
+      "js": ["js/jquery-1.4.2.js", "js/content-script.js"]
     }
   ],
   "background": {
