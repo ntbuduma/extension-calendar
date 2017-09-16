@@ -1,0 +1,19 @@
+{
+  "name": "calendar-chrome-extension",
+  "version": "1.0.0",
+  "description": "A lightweight google chrome extension that adds events and tasks to google calendar",
+  "main": "index.js",
+  "dependencies": {
+    "rapydscript": "^0.5.58"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "calendar-chrome-extension"
+  },
+  "author": "Nithin Buduma, Sooraj Boominathan, Varun Mangalick, Abhijit Mudigonda",
+  "license": "ISC"
+}
