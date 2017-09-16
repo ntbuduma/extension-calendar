@@ -8,6 +8,12 @@
         "default": "Ctrl+Shift+L"
       },
       "description": "open input box"        
+    },
+    "_execute_browser_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+K"
+      },
+      "description": "open cal view"
     }
   },
   "description": "This extension runs Python code.",
