@@ -12,12 +12,36 @@
         font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
         font-size: 100%;
       }
-      #status {
-        /* avoid an excessively wide status text */
-        white-space: pre;
-        text-overflow: ellipsis;
-        overflow: hidden;
-        max-width: 400px;
+      .event {
+        background-color: #99d6ff;
+        padding: 1px 10px 1px 10px;
+        border-radius: 7px;
+        width: 250px;
+        margin: 5px;
+      }
+      .title {
+        text-align: center;
+      }
+      .e-name {
+        margin-bottom: -15px;
+        margin-top: 0px;
+        font-weight: bold;
+      }
+      .e-time {
+        margin-bottom: -15px;
+        font-size: 80%;
+      }
+      .e-loc {
+        font-size: 80%;
+        margin-bottom: 0px;
+      }
+      .busy {
+        background-color: #314a72;
+      }
+      td {
+        width: 50px; 
+        height: 10px;
+        border: 1px solid black;
       }
     </style>
  
@@ -31,8 +55,6 @@
     <script src="popup.js"></script>
   </head>
   <body>
-    <div id="status"></div>
-    <p>HELLOOEGHWORUGHPRWOG</p>
-    <ul id="ct"></ul>
+    <div id="events"></div>
   </body>
 </html>
